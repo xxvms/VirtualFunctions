@@ -11,7 +11,7 @@ public:
 		std::cout << "Base\n" << std::endl;
 	}
 };
-class Derived1: public Base                         // derived class 1
+class Derived1: public Base                         // derived class 1 - access function from base class not derived class
 {
 public:
 	void show()
@@ -19,7 +19,7 @@ public:
 		std::cout << "Derived 1\n" << std::endl;
 	}
 };
-class Derived2: public Base                        // derived class 2
+class Derived2: public Base                        // derived class 2 - access function from base class not derived class
 {
 public:
 	void show()
